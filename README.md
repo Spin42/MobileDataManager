@@ -29,7 +29,7 @@ The plugin then appears as **Mobile Data** in RaspAP's sidebar.
 ## Command-line equivalent
 
 ```sh
-nmcli connection add type gsm ifname '*' con-name gsm apn <YOUR_APN>
+nmcli connection add type gsm ifname '*' con-name gsm apn <YOUR_APN> gsm.initial-eps-bearer-apn <YOUR_APN>
 nmcli connection up gsm
 ```
 
